@@ -1,0 +1,17 @@
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin: 2rem auto;
+    flex-direction: column;
+    color: #fafaff;
+}
+
+.contacts-top {
+    display: flex;
+    width: 30%;
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}

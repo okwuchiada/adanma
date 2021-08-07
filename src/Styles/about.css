@@ -1,0 +1,100 @@
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #45062E;
+    width: 100%;
+    background: url('../Images/palm-leaf.png');
+    background-color: #FAFAFF;
+    padding-left: 6em;
+    padding-right: 6em;
+    height: 80vh;
+}
+
+.about-side {
+    width: 5%;
+}
+
+.about-side .social-links {
+    margin-top: 5rem;
+}
+
+.about-side .social-links li a {
+    color: #45062E;
+}
+
+.about-side p {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.about-container-left {
+    width: 40%;
+    padding: 0 1.5em;
+    height: inherit;
+}
+
+.about-image-container {
+    width: 100%;
+    position: relative;
+    margin: 2rem;
+}
+
+.about-image-background {
+    width: 300px;
+    height: 330px;
+    background-color: #45062E;
+    border-radius: 50%;
+    position: absolute;
+    left: 40px;
+}
+
+.about-image img {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    top: 50px;
+    border: 2px solid #45062E;
+    border-radius: 0px 0px 5px #eee;
+}
+
+.about-container-right {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container-right h4 {
+    font-size: 25px;
+}
+
+.about-container-right small {
+    font-size: 15px;
+    margin-top: .5rem;
+}
+
+.about-container-right p {
+    font-size: 20px;
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+.project-btn {
+    background-color: #45062E;
+    padding: .6rem;
+    border: 1px solid #45062E;
+    margin-top: 3rem;
+    border-radius: .2rem;
+    box-shadow: 0px 2px 5px #45062E;
+}
+
+.link {
+    color: #FAFAFF;
+    text-decoration: none;
+}
