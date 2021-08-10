@@ -8,7 +8,7 @@
     background-color: #FAFAFF;
     padding-left: 6em;
     padding-right: 6em;
-    height: 80vh;
+    min-height: 80vh;
 }
 
 .about-side {
@@ -33,7 +33,7 @@
 .about-container-left {
     width: 40%;
     padding: 0 1.5em;
-    height: inherit;
+    height: 80vh;
 }
 
 .about-image-container {
@@ -97,4 +97,48 @@
 .link {
     color: #FAFAFF;
     text-decoration: none;
+}
+
+@media (max-width:782px) {
+    .about-container {
+        flex-direction: column;
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+    .about-side {
+        display: none;
+    }
+    .about-container-left {
+        height: 5rem;
+        width: 100%;
+        padding: 1rem;
+    }
+    .about-image-background {
+        width: 200px;
+        height: 200px;
+    }
+    .about-image img {
+        width: 200px;
+        height: auto;
+        left: 18%;
+        top: 10%;
+    }
+    .about-container-right {
+        margin-top: 15rem;
+        margin-bottom: 3rem;
+    }
+    .about-container-right h4 {
+        font-size: 25px;
+    }
+    .about-container-right small {
+        font-size: 13px;
+        margin-top: .9rem;
+    }
+    .about-container-right small~small {
+        margin-top: .4rem;
+    }
+    .about-container-right p {
+        font-size: 16px;
+        line-height: 2rem;
+    }
 }

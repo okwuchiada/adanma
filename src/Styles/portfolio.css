@@ -26,14 +26,14 @@
     height: 12rem;
     background-color: #45062E;
     margin: 1.4rem;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     border-radius: .7rem;
     box-shadow: 1px 2px 6px #ccc;
     z-index: 3;
 }
 
 .card:hover {
-    box-shadow: 1px 2px 9px 5px#ccc;
+    box-shadow: 1px 2px 9px 10px#ccc;
 }
 
 .card__title {
@@ -68,4 +68,13 @@
 .card__links a:hover {
     background-color: #fafaff;
     color: #45062E;
+}
+
+@media (max-width: 782px) {
+    .cards__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

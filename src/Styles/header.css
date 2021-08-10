@@ -15,11 +15,15 @@
 
 .logo img {
     width: 80px;
-    margin-top: 1rem;
+    object-fit: cover;
 }
 
-nav {
+.nav-bar {
     width: 40%;
+}
+
+.nav-icon {
+    display: none;
 }
 
 .nav-links {
@@ -55,13 +59,60 @@ nav {
     width: 50px;
 }
 
-@media screen and (max-width: 750px) {
+@media (max-width: 782px) {
     .header {
+        padding: 2rem;
+        padding-bottom: 3rem;
+        /* position: relative; */
+    }
+    .logo img {
+        transform: scale(0.8);
+    }
+    .nav-bar {
         position: relative;
-        width: 90%;
-        margin: auto;
+        width: 70%;
+    }
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 70vh;
+        position: absolute;
+        top: 2rem;
+        right: -100%;
+        opacity: 1;
+        transition: all .5s ease;
+        overflow: hidden;
+    }
+    .nav-links.active {
+        background-color: #fafaff;
+        color: #45062E;
+        right: 0%;
+        opacity: 1;
+        z-index: 1;
+        transition: all .5s ease;
     }
     .nav-link {
-        padding: auto 2rem;
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        color: #45062E;
+        display: table;
+    }
+    .nav-link:hover {
+        transform: scale(1.1);
+        border-radius: 0;
+    }
+    .nav-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    .fa-times {
+        color: #fff;
+        font-size: 2rem;
     }
 }

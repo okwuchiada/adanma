@@ -47,7 +47,7 @@
     font-size: 30px;
 }
 
-.intro-p {
+.intro p {
     font-size: 25px;
     margin-top: 2rem;
 }
@@ -92,4 +92,24 @@
     border-radius: 50%;
     left: 0px;
     top: -20px;
+}
+
+@media screen and (max-width: 768px) {
+    .home-image-container {
+        display: none;
+    }
+    .intro {
+        padding: 2em 0;
+    }
+    .intro h1 {
+        font-size: 30px;
+    }
+    .intro h3 {
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    .intro p {
+        font-size: 13px;
+        margin-top: .6rem;
+    }
 }
