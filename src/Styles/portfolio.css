@@ -1,0 +1,71 @@
+.portfolio {
+    min-height: 80vh;
+    width: 100%;
+    padding: 2em;
+    color: #fafaff;
+    background: url("../Images/palm-leaf.png");
+}
+
+#project__header {
+    color: #45062E;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.cards__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    margin: .5rem 9rem;
+}
+
+.card {
+    width: 23rem;
+    height: 12rem;
+    background-color: #45062E;
+    margin: 1.4rem;
+    padding: 1rem;
+    border-radius: .7rem;
+    box-shadow: 1px 2px 6px #ccc;
+    z-index: 3;
+}
+
+.card:hover {
+    box-shadow: 1px 2px 9px 5px#ccc;
+}
+
+.card__title {
+    margin-top: 1rem;
+    margin-bottom: 1.3rem;
+    font-size: 15px;
+}
+
+.card__desc {
+    font-size: 13px;
+}
+
+.card__links {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.card__links a {
+    color: #fafaff;
+    text-decoration: none;
+    font-size: 13px;
+    border: 2px solid #ccc;
+    padding: .5rem;
+    border-radius: .4rem;
+}
+
+.card__links a:hover {
+    background-color: #fafaff;
+    color: #45062E;
+}

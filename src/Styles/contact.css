@@ -1,17 +1,39 @@
-.contacts {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-    margin: 2rem auto;
-    flex-direction: column;
+.contacts__container {
+    height: 80vh;
+    width: 100%;
+    background: #45062E;
     color: #fafaff;
 }
 
-.contacts-top {
+.contact_message {
+    font-size: 20px;
+    padding-top: 3rem;
+}
+
+.contact_message h4 {
+    text-align: center;
+    margin-top: 3rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.contacts__info {
     display: flex;
-    width: 30%;
-    margin-top: 2rem;
+    width: 60%;
+    margin: 6rem auto;
     justify-content: space-between;
-    align-items: center;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #45062E;
+    padding: 2rem 1rem;
+    background-color: #fafaff;
+    border: 2px solid #fafaff;
+    border-radius: .7rem;
+    box-shadow: 1px 1px 2px #fafaff;
+}
+
+.contact i {
+    font-size: 20px;
 }

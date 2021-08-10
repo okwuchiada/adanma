@@ -43,6 +43,7 @@ function About() {
                 </div> 
                 <div className="about-image">
                 <img src={img2} alt="Adanma" />
+               
                 </div>   
                     
                 </div>   

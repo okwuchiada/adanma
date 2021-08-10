@@ -10,14 +10,6 @@
     font-size: 12px;
 }
 
-.footer-top {
+.footer__note {
     padding: .7rem;
-    font-weight: bold;
-}
-
-.footer-bottom a {
-    color: #FAFAFF;
-    text-decoration: none;
-    font-style: italic;
-    font-weight: bold;
 }

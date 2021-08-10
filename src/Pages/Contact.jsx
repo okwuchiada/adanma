@@ -5,32 +5,33 @@ import '../Styles/contact.css'
 export const Contact = () => {
     return (
         <>
-        <div className="contacts">
+        <div className="contacts__container">
+            <div className="contact_message">
             <h4>I look forward to building amazing projects together.</h4>
-            <h5>Tea or Coffee?</h5>
+           
+            </div>
             
-            <div className="contacts-top">
+            
+            <div className="contacts__info">
                 <div className="contact">
-                    Mail Me: 
-                    <a href="mailto:adanmao.okwuchi@gmail.com">
-
+                   
+                    <a href="mailto:adanmao.okwuchi@gmail.com" target="_blank" rel="noreferrer">
+                    Mail Me:    <i class="fas fa-envelope"> </i> 
                     </a>
                 </div>
                 <div className="contact">
-                Follow Me: 
-                   <p>
-                   
-                   <a href="twitter.com/_adahh_">
-                        <i class="fab fa-twitter"></i>
+            
+                   <a href="https://twitter.com/_adahh_" target="_blank" rel="noreferrer">
+                   Follow Me:  <i class="fab fa-twitter"> </i>
                         </a>
-                    </p> 
-                    <p>
-                     
-                    <a href="https://www.linkedin.com/in/adanma-okwuchi-29162b197/">
+                        </div>
+                
+                <div className="contact">  
+                    <a href="https://www.linkedin.com/in/adanma-okwuchi-29162b197/" target="_blank" rel="noreferrer">
                         
-                        <i class="fab fa-linkedin-in"></i>
+                       Connect With Me: <i class="fab fa-linkedin-in"></i>
                         </a>
-                    </p>
+                    
 
                 </div>
                 
