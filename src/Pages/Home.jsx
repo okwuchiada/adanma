@@ -37,7 +37,9 @@ function Home() {
                 <h3>Software Developer</h3>
                 <p>Software Development Techster at Tech4Dev Women Techster Fellowship</p>
             
-                <Button className="email-btn">Send an Email</Button>
+                <Button className="email-btn">
+                    <a href="mailto:adanmao.okwuchi@gmail.com">Send an Email </a>
+                </Button>
 
             </div>
             <div className="home-image-container">
