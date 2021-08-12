@@ -40,6 +40,9 @@ function Home() {
                 <Button className="email-btn">
                     <a href="mailto:adanmao.okwuchi@gmail.com">Send an Email </a>
                 </Button>
+                <Button className="email-btn">
+                        <a href="https://drive.google.com/file/d/1egjpt-uOVV1Lip3pauNp9ynPVhzx1Enh/view?usp=sharing" target="_blank" rel="noreferrer">View Resume</a>
+                </Button>
 
             </div>
             <div className="home-image-container">
