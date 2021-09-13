@@ -68,13 +68,15 @@ function About() {
               <p>
                   Location: Lagos, Nigeria.
                 </p> 
-                <p>Email: adanmao.okwuchi@gmail.com</p> 
+                <p>Email: okwuchiadanma@gmail.com</p> 
 
                 <Button className="project-btn">
                     <Link to="/portfolio" className="link">
                         All Projects
                     </Link>
                 </Button>
+
+                
               
 
             </div>
