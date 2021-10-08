@@ -1,8 +1,7 @@
-import React from 'react'
-import Button from '../Components/Button'
-import Footer from '../Components/Footer'
+
 import '../Styles/home.css'
 import img from '../Images/image-2.png'
+import { SocialLinks, Button, Footer } from '../Components'
 
 
 
@@ -12,24 +11,7 @@ function Home() {
        
         <div className="hero-page">
             <div className="social-media">
-                <ul className="social-links">
-                    <li>
-                        
-                        <a href="https://www.linkedin.com/in/adanma-okwuchi-29162b197/">
-                        
-                        <i className="fab fa-linkedin-in"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="twitter.com/_adahh_">
-                        <i className="fab fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/okwuchiada"><i className="fab fa-github"></i></a>
-                    </li>
-                    
-                </ul>
+               <SocialLinks />
             </div>
             <div className="intro">
                 <small className="small">I am</small>

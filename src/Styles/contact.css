@@ -19,6 +19,8 @@
 
 .contacts__info {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     width: 60%;
     margin: 6rem auto;
     justify-content: space-between;

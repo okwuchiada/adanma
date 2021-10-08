@@ -15,10 +15,12 @@
 
 .cards__list {
     list-style: none;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 100%;
-    margin: .5rem 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: 3rem auto;
 }
 
 .card {
@@ -70,11 +72,9 @@
     color: #45062E;
 }
 
-@media (max-width: 782px) {
+
+/* @media (max-width: 782px) {
     .cards__list {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
     }
-}
+} */

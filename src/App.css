@@ -6,7 +6,7 @@
 
 body {
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: 'Montserrat', sans-serif;

@@ -11,6 +11,7 @@ import Header from './Components/Header'
 import Home from './Pages/Home'
 import About from './Pages/About'
 import { Contact } from './Pages/Contact';
+import { Main } from './Layout/Main'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/main" component={Main} />
       </Switch>
     </Router>
     
