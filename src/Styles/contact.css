@@ -41,9 +41,9 @@
 }
 
 @media (max-width: 782px) {
-    .contacts__container {
+    /* .contacts__container {
         height: 100%;
-    }
+    } */
     .contacts__info {
         flex-direction: column;
         align-items: center;
