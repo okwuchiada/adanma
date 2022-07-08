@@ -88,6 +88,17 @@
     bottom: 2rem;
     right: 2rem;
 }
+.home-image2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50% 15% 88% 80%;
+    transform: rotate(-10deg);
+    background-color: #470526;
+    bottom: 3rem;
+    right: 4.5rem;
+    animation: roll 2s infinite;
+}
 
 .home-image-container img {
     position: absolute;
@@ -121,3 +132,18 @@
         margin-top: .6rem;
     }
 }
+
+@keyframes roll {
+    0% {
+        transform: rotate(0deg);
+        bottom: 5rem;
+    }
+    50% {
+        transform: rotate(180deg);
+        /* left: 2rem; */
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+    

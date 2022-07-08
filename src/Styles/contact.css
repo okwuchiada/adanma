@@ -3,39 +3,58 @@
     width: 100%;
     background: #45062E;
     color: #fafaff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact_message {
     font-size: 20px;
-    padding-top: 3rem;
-}
-
-.contact_message h4 {
+    margin-top: 2rem;
+    /* padding-top: 3rem; */
     text-align: center;
-    padding-top: 3rem;
+    /* padding-top: 3rem; */
     text-transform: capitalize;
     font-weight: 400;
 }
 
-.contacts__info {
+.contact-list{
     display: flex;
-    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
     align-items: center;
     width: 60%;
-    margin: 6rem auto;
-    justify-content: space-between;
+    height: 80%;
 }
 
-.contact a {
-    text-decoration: none;
+.contact-card{
+    background: #fafaff;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     color: #45062E;
-    padding: 2rem 1rem;
-    background-color: #fafaff;
-    border: 2px solid #fafaff;
-    border-radius: .7rem;
-    box-shadow: 0px 0px 5px #666;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.contact-card-link{
+    width: max-content;
+    padding: 10px 15px;
+    background-color: #45062E;
+    color: #fafaff;
+    margin: 15px 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-card-link:hover{
+   opacity: 0.9;
+   cursor: pointer;
+   margin-top: 10px;
+}
 .contact i {
     font-size: 20px;
 }
