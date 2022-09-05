@@ -74,7 +74,7 @@ export const data = {
             github: "https://github.com/okwuchiada/ada"
         },
         {
-            title: "DAP(Digital Asset Platform) -",
+            title: "DAP(Delivered as Promised)",
             desc: " A financial platform that allows users be in control of all transactions built with HTML, CSS, and JavaScript.",
             live: "https://afrits-innovations-limited.github.io/dap-landing-page/",
             github: "https://github.com/okwuchiada/ada"
