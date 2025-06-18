@@ -1,13 +1,43 @@
 import { data } from "../lib/data";
+import { FloatingPaths } from "./ui/background-paths";
 import { Button } from "./ui/button";
 import { Github, Linkedin, Mail, Download } from "lucide-react";
+import { SparklesCore } from "./ui/sparkles";
+import { useEffect, useState } from "react";
 
 export function Hero() {
+  const [isDark, setIsDark] = useState(false);
+  useEffect(() => {
+    const saved = localStorage.getItem("theme");
+    if (saved === "dark") {
+      document.documentElement.classList.add("dark");
+      setIsDark(true);
+    }
+  }, []);
   return (
     <section
       id="home"
       className="min-h-screen flex items-center justify-center pt-16"
     >
+      {/* <FloatingPaths position={1} />
+      <FloatingPaths position={0.5} direction="right" /> */}
+      <FloatingPaths position={1.3} />
+      <FloatingPaths position={1} />
+      {/* {isDark && (
+        <div className="w-full absolute inset-0 min-h-full">
+          <SparklesCore
+            id="tsparticlesfullpage"
+            background="transparent"
+            minSize={0.6}
+            maxSize={1.4}
+            particleDensity={50}
+            className="w-full h-full"
+            particleColor="#FFFFFF"
+            speed={1}
+          />
+        </div>
+      )} */}
+
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-8">
           <div className="space-y-4">

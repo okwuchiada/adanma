@@ -22,7 +22,7 @@ const colorThemes = [
 ];
 
 export function ThemeColorPicker() {
-  const [selectedColor, setSelectedColor] = useState("default");
+  const [selectedColor, setSelectedColor] = useState("purple");
 
   // useEffect(() => {
   //   const savedColor = localStorage.getItem("color-theme") || "default";
@@ -76,7 +76,7 @@ export function ThemeColorPicker() {
         applyTheme(val);
       }}
     >
-      <SelectTrigger className="w-[150px] text-sm">
+      <SelectTrigger className="w-[150px] text-sm hidden">
         <div className="flex items-center gap-2">
           {/* <span
             className="w-3 h-3 rounded-full"
@@ -104,9 +104,7 @@ export function ThemeColorPicker() {
       </SelectContent>
     </Select>
   );
- 
 }
-
 
 // return (
 //   <div className="relative group">

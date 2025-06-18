@@ -20,5 +20,5 @@
     "jsx": "react-jsx",
     "types": ["react", "node"]
   },
-  "include": ["src", "src/components/about.tsx"]
+  "include": ["src", "src/components/about.tsx", "components/ui/splash-cursor.tsx"]
 }
