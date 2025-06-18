@@ -35,7 +35,7 @@ export function ThemeColorPicker() {
   // }, []);
 
   useEffect(() => {
-    const saved = localStorage.getItem("color-theme") || "default";
+    const saved = localStorage.getItem("color-theme") || "purple";
     setSelectedColor(saved);
     applyTheme(saved);
   }, []);
